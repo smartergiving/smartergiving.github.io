@@ -271,6 +271,9 @@ footer {
 
 /******** Custom CSS *********/
 
+.text-right {
+  text-align: right;
+}
 .logo {
   width: 200px;
 }
