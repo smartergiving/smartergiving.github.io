@@ -1,95 +1,162 @@
 ---
-title: SmarterGiving
 ---
-<!doctype html>
+<!DOCTYPE HTML>
+<!--
+  Directive by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="Open experiments in philanthropy" />
-    <meta name="robots" content="noindex, nofollow">
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <title>{{ site.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ site.description }}" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <img src="/logo.png" class="logo" alt="SmarterGiving Logo">
-      </header>
-      <section>
-        <h2>Open Experiments in Philanthropy</h2>
 
-        <hr>
+    <!-- Header -->
+      <div id="header">
+        <img class="icon-logo" src="{{ site.baseurl }}/assets/images/logo.svg" alt="SmarterGiving logo">
+        <!--span class="logo icon fa-paper-plane-o"></span-->
+        <h1>SmarterGiving</h1>
+        <p>Advancing the philanthropic world
+        <br />
+        through open source experiments</p>
+      </div>
 
-        <h3>The Goal</h3>
+    <!-- Main -->
+      <div id="main">
 
-        <p>Triple the amount of charitable giving in the US ($330M => $1T)</p>
+        <header class="major container 75%">
+          <h2>We conduct experiments
+          <br />
+          at the intersection of
+          <br />
+          technology and philanthropy</h2>
+        </header>
 
-        <h3>The Hypothesis</h3>
+        <div class="box alt container">
+          <section class="feature left">
+            <a href="https://github.com/smartergiving/foundation-website-template" target="_blank" class="image icon fa-external-link"><img src="{{ site.baseurl }}/assets/images/grantmaker-template.jpg" alt="SmarterGiving Grantmaker Template" /></a>
+            <div class="content">
+              <h3>Grantmaker Templates</h3>
+              <p>Foundation transparency should be a policy decision, not a technological one. Our free, open source templates help grantmakers of all sizes establish their online presence.</p>
+            </div>
+          </section>
+          <section class="feature right">
+            <a href="https://github.com/smartergiving/open-data" target="_blank" class="image icon fa-external-link"><img src="{{ site.baseurl }}/assets/images/open-data.jpg" alt="SmarterGiving Open Data" /></a>
+            <div class="content">
+              <h3>Open Data</h3>
+              <p>Most machine-readable data in the charitable world is stuck behind paywalls. We're exploring new ways to gather and share data so developers can more easily experiment with new philanthropic models.</p>
+            </div>
+          </section>
+          <section class="feature left">
+            <a href="https://smartergiving.org/dispatch/" target="_blank" class="image icon fa-external-link"><img src="{{ site.baseurl }}/assets/images/ipad.jpg" alt="SmarterGiving Dispatch" /></a>
+            <div class="content">
+              <h3>Dispatches</h3>
+              <p>Dispatches are curated lists of effective nonprofits. We find experienced philanthropists in given topics and use their insights to present users a digestible list of 10 nonprofits.</p>
+            </div>
+          </section>
+          <section class="feature right">
+            <a href="https://smartergiving.org/donatejs" target="_blank" class="image icon fa-external-link"><img class="image" src="{{ site.baseurl }}/assets/images/donatejs.jpg" alt="SmarterGiving Donate.js" /></a>
+            <div class="content">
+              <h3>Donate.js</h3>
+              <p>Technology allowing intelligent donation buttons to be placed anywhere a nonprofit story is told.</p>
+            </div>
+          </section>
+          <section class="feature left">
+            <a href="http://kyn.github.io/kyn-platform" target="_blank" class="image icon fa-external-link"><img class="image" src="{{ site.baseurl }}/assets/images/platform.jpg" alt="Kyn" /></a>
+            <div class="content">
+              <h3>Kyn</h3>
+              <p>It's easy to follow and mimic the investments of for-profit investors. We asked ourselves why it was so hard to follow and mimic experienced philanthropists and built a philanthropy platform around the idea.</p>
+            </div>
+          </section>
+          <section class="feature right">
+            <a href="https://github.com/smartergiving/hgrant-json" target="_blank" class="image icon fa-external-link"><img class="image" src="{{ site.baseurl }}/assets/images/hgrant.jpg" alt="SmarterGiving Donate.js" /></a>
+            <div class="content">
+              <h3>hGrant-JSON</h3>
+              <p>We converted the hGrant spec to JSON schema, making it much easier for developers to create valid hGrants in machine-readable format.</p>
+            </div>
+          </section>
+        </div>
 
-        <p>A lack of trust exists at all levels of charitable giving. Improve trust and you increase giving.</p>
+        <div class="box container">
+          <header>
+            <h2>About</h2>
+          </header>
+          <section class="text-center">
+            <p>We're a merry band of product-minded geeks, lead by <a href="https://www.chadkruse.com">Chad Kruse</a></p>
+          </section>
+        </div>
 
-        <hr>
+        <footer class="major container 75%">
+          <h2>The Goal: $1 Trillion</h2>
+          <p>Let's triple the amount of charitable giving in the US within 5 years.<br>And let's do so together...and in the open.</p>
+        </footer>
 
-        <h2>Projects</h2>
+      </div>
 
-        <h3>Open Templates</h3>
-        <p>We want to help introduce the philanthropic community to the powerful world of open source development. We developed free website templates for both nonprofits and grantmakers with everything each of them need to establish a modern web presence. Most importantly, all code is hosted publicly, meaning anyone can contribute to site improvements or access the data the templates implicitly share. <a href="https://github.com/smartergiving/foundation-website-template" target="_blank">Grantmakers</a> | <a href="https://github.com/smartergiving/free-nonprofit-starter-website" target="_blank">Nonprofits</a></p>
+    <!-- Footer -->
+      <div id="footer">
+        <div class="container 75%">
 
-        <h3>Open Data</h3>
-        <p>Most machine-readable data in the charitable world is stuck behind paywalls. We're exploring new ways to gather and share data so developers can more easily experiment with new philanthropic models. The data currently powers all of our Dispatches and will soon be available via API. <a href="https://github.com/smartergiving/open-data" target="_blank">View Project</a></p>
+          <header class="major last">
+            <h2>Get in Touch</h2>
+          </header>
 
-        <h3>Donate.js</h3>
-        <p>Technology allowing intelligent donation buttons to be placed anywhere a nonprofit story is told. <a href="https://smartergiving.org/donatejs" target="_blank">View Project</a></p>
+          <p>We love connecting and collaborating with other practitioners in the space.</p>
 
-        <h3>Dispatch</h3>
-        <p>Dispatches are curated lists of effective nonprofits. We find experienced philanthropists in given topics and use their insights to present users a digestible list of 10 nonprofits. <a href="https://smartergiving.org/dispatch/" target="_blank">View Project</a></p>
+          <form id="contact-form" action="//formspree.io/hello@smartergiving.org" method="post">
+            <div class="row">
+              <div class="6u 12u(mobilep)">
+                <input type="text" name="name" placeholder="Name" />
+              </div>
+              <div class="6u 12u(mobilep)">
+                <input type="email" name="email" placeholder="Email" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="12u">
+                <textarea name="message" placeholder="Message" rows="6"></textarea>
+              </div>
+            </div>
+            <!-- CONFIG -->
+            <input class="is-hidden" type="text" name="_gotcha">
+            <input type="hidden" name="_subject" value="Subject">
+            <input type="hidden" name="_cc" value="email@cc.com">
+            <!-- /CONFIG -->
+            <div class="row">
+              <div class="12u">
+                <ul class="actions">
+                  <li><input type="submit" value="Send Message" /></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
 
-        <h3>Kyn</h3>
-        <p>It's easy to follow and mimic the investments of for-profit investors. We asked ourselves why it was so hard to follow and mimic experienced philanthropists, and decided to build a philanthropy platform around the idea. <a href="http://kyn.github.io/kyn-platform" target="_blank">View Project</a></p>
+        <div class="container 75%">
+          <ul class="icons">
+            <li><a href="https://twitter.com/smartergiving" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://github.com/smartergiving" class="icon fa-github"><span class="label">Github</span></a></li>
+            <li><a href="mailto:hello@smartergiving.org" class="icon fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; SmarterGiving. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </div>
 
-        <hr>
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script>
 
-        <h3>About</h3>
-
-        <p>This project is maintained by <a href="http://www.chadkruse.com" target="_blank">Chad Kruse</a></p>
-
-        <p class="footer-icons">
-          <a href="https://twitter.com/smartergiving">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-          <a href="mailto:hello@smartergiving.org">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </p>
-
-      </section>
-      <footer>
-        <p class="view"><a href="http://github.com/smartergiving" target="_blank">View our Projects on GitHub</a></p>
-        <p><small>We <i class="fa fa-heart"></i> open source</small><br><small> Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-60456591-1', 'auto');
-      ga('send', 'pageview');
-    </script>
   </body>
 </html>

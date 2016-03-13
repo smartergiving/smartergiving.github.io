@@ -1,0 +1,17 @@
+# Site settings
+# Meta tags
+title: SmarterGiving
+description: Advancing the philanthropic world through open source experiments
+
+# Jekyll settings
+baseurl: "" # Leave this blank unless your site is located on a subpath, e.g. /blog
+url: "https://smartergiving.org" # Typically http://www.yourdomain.org
+sass:
+  sass_dir: assets/css/_sass
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude: 
+  - README.md
