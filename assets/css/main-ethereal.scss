@@ -1092,6 +1092,18 @@
 				padding: 0 0.75rem 0 0;
 				vertical-align: middle;
 			}
+			
+				@media screen and (min-width: 736px) {
+					ul.actions li.desktop-hidden {
+						display: none;
+					}
+				}
+
+				@media screen and (max-width: 736px) {
+					ul.actions li.mobile-hidden {
+						display: none;
+					}
+				}
 
 				ul.actions li:last-child {
 					padding-right: 0;
