@@ -8,6 +8,7 @@ baseurl: "" # Leave this blank unless your site is located on a subpath, e.g. /b
 url: "https://smartergiving.org" # Typically http://www.yourdomain.org
 sass:
   sass_dir: assets/css/_sass
+  style: compressed
 
 # Build settings
 markdown: kramdown
